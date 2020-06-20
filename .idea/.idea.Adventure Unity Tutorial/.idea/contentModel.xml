@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="B:\Unity Projects\Adventure Unity Tutorial" t="IncludeRecursive">
+      <e p="Adventure Unity Tutorial.sln" t="IncludeFlat" />
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="AdventureGameSample_Third-PartyNotice.txt" t="Include" />
+        <e p="Fonts" t="Include">
+          <e p="FontLicense.txt" t="Include" />
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="Editor" t="Include">
+            <e p="Abstracts" t="Include">
+              <e p="EditorWithSubEditors.cs" t="Include" />
+            </e>
+            <e p="DataPersistence" t="Include">
+              <e p="DataResetterEditor.cs" t="Include" />
+              <e p="SaveDataEditor.cs" t="Include" />
+            </e>
+            <e p="Extensions" t="Include">
+              <e p="SerializedPropertyExtensions.cs" t="Include" />
+            </e>
+            <e p="Interaction" t="Include">
+              <e p="Conditions" t="Include">
+                <e p="AllConditionsEditor.cs" t="Include" />
+                <e p="ConditionCollectionEditor.cs" t="Include" />
+                <e p="ConditionEditor.cs" t="Include" />
+              </e>
+              <e p="InteractableEditor.cs" t="Include" />
+              <e p="ReactionCollectionEditor.cs" t="Include" />
+              <e p="ReactionEditors" t="Include">
+                <e p="AnimationReactionEditor.cs" t="Include" />
+                <e p="AudioReactionEditor.cs" t="Include" />
+                <e p="BehaviourReactionEditor.cs" t="Include" />
+                <e p="ConditionReactionEditor.cs" t="Include" />
+                <e p="GameObjectReactionEditor.cs" t="Include" />
+                <e p="LostItemReactionEditor.cs" t="Include" />
+                <e p="PickedUpReactionEditor.cs" t="Include" />
+                <e p="ReactionEditor.cs" t="Include" />
+                <e p="SceneReactionEditor.cs" t="Include" />
+                <e p="TextReactionEditor.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Inventory" t="Include">
+              <e p="InventoryEditor.cs" t="Include" />
+            </e>
+          </e>
+          <e p="MonoBehaviours" t="Include">
+            <e p="Camera" t="Include">
+              <e p="CameraControl.cs" t="Include" />
+            </e>
+            <e p="DataPersistence" t="Include">
+              <e p="BehaviourEnableStateSaver.cs" t="Include" />
+              <e p="DataResetter.cs" t="Include" />
+              <e p="GameObjectActivitySaver.cs" t="Include" />
+              <e p="PositionSaver.cs" t="Include" />
+              <e p="RotationSaver.cs" t="Include" />
+              <e p="Saver.cs" t="Include" />
+            </e>
+            <e p="Interaction" t="Include">
+              <e p="Interactable.cs" t="Include" />
+              <e p="ReactionCollection.cs" t="Include" />
+              <e p="TextManager.cs" t="Include" />
+            </e>
+            <e p="Inventory" t="Include">
+              <e p="Inventory.cs" t="Include" />
+            </e>
+            <e p="Player" t="Include">
+              <e p="PlayerMovement.cs" t="Include" />
+            </e>
+            <e p="SceneControl" t="Include">
+              <e p="SceneController.cs" t="Include" />
+              <e p="StartingPosition.cs" t="Include" />
+            </e>
+          </e>
+          <e p="ScriptableObjects" t="Include">
+            <e p="DataPersistence" t="Include">
+              <e p="SaveData.cs" t="Include" />
+            </e>
+            <e p="Interaction" t="Include">
+              <e p="Abstracts" t="Include">
+                <e p="DelayedReaction.cs" t="Include" />
+                <e p="Reaction.cs" t="Include" />
+              </e>
+              <e p="Conditions" t="Include">
+                <e p="AllConditions.cs" t="Include" />
+                <e p="Condition.cs" t="Include" />
+                <e p="ConditionCollection.cs" t="Include" />
+              </e>
+              <e p="Reactions" t="Include">
+                <e p="DelayedReactions" t="Include">
+                  <e p="AnimationReaction.cs" t="Include" />
+                  <e p="BehaviourReaction.cs" t="Include" />
+                  <e p="GameObjectReaction.cs" t="Include" />
+                  <e p="LostItemReaction.cs" t="Include" />
+                  <e p="PickedUpItemReaction.cs" t="Include" />
+                </e>
+                <e p="ImmediateReactions" t="Include">
+                  <e p="AudioReaction.cs" t="Include" />
+                  <e p="ConditionReaction.cs" t="Include" />
+                  <e p="SceneReaction.cs" t="Include" />
+                  <e p="TextReaction.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="Inventory" t="Include">
+              <e p="Item.cs" t="Include" />
+            </e>
+            <e p="ResettableScriptableObject.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Shaders" t="Include">
+          <e p="Hologram.shader" t="Include" />
+          <e p="ToonShader.shader" t="Include" />
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+    <e p="C:\Users\germano.GERMANO-PC\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\germano.GERMANO-PC\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_Adventure Unity Tutorial.1098995901.00" t="ExcludeRecursive" />
+  </component>
+</project>
