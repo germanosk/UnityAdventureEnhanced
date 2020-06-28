@@ -20,6 +20,11 @@ public class PlayerMovement : MonoBehaviour
     private bool handleInput = true;            // Whether input is currently being handled.
     private WaitForSeconds inputHoldWait;       // The WaitForSeconds used to make the user wait before input is handled again.
 
+    public bool HandleInput
+    {
+        get => handleInput;
+        set => handleInput = value;
+    }
 
     private readonly int hashSpeedPara = Animator.StringToHash("Speed");
                                                 // An hash representing the Speed animator parameter, this is used at runtime in place of a string.
@@ -200,8 +205,6 @@ public class PlayerMovement : MonoBehaviour
 
     private IEnumerator WaitForInteraction ()
     {
-        // As soon as the wait starts, input should no longer be accepted.
-        handleInput = false;
 
         // Wait for the normal pause on interaction.
         yield return inputHoldWait;
@@ -212,7 +215,5 @@ public class PlayerMovement : MonoBehaviour
             yield return null;
         }
 
-        // Now input can be accepted again.
-        handleInput = true;
     }
 }
